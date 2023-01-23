@@ -4,8 +4,4 @@ services:
     build: .
     ports:
       - "80:80"
-services:
-  frp:
-    build: .
-    ports:
       - "7000:7000"
